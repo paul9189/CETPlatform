@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import '../../App.css';
 import Footer from '../Footer';
 import './ProjectLocation.css';
-
+import Map from '../Map';
 function ProjectLocation() {
 
 const images = [
@@ -38,8 +38,8 @@ const images = [
 
   return (
     <>
-    <h1 className="project-location-container">PROJECT LOCATION</h1>
-    <p className='location-description'>Youtopia Riverside, just outside Stara Zagora, Bulgaria, is a cozy and recently renovated space that’s perfect for group projects and events. It has plenty of clean, comfortable rooms with towels provided, a fully equipped kitchen, and a big activity room where workshops are held. The house is surrounded by nature, offering peace and quiet, but it’s still close to the city for convenience.
+    <h1 className="project-location-container">Youtopia Riverside</h1>
+    <p className='location-description'>Just outside Stara Zagora, Youtopia is a cozy and recently renovated space that’s perfect for group projects and events. It has plenty of clean, comfortable rooms with towels provided, a fully equipped kitchen, and a big activity room where workshops are held. The house is surrounded by nature, offering peace and quiet, but it’s still close to the city for convenience.
 
 For meals, Salt and Pepper Restaurant in Stara Zagora is the daily caterer for our projects, serving delicious and varied dishes. On some days, we mix things up with Chinese food or pizza. There’s also a pool and a jacuzzi, so don’t forget to bring your swimsuits for some fun and relaxation during your stay!</p>
     
@@ -48,7 +48,7 @@ For meals, Salt and Pepper Restaurant in Stara Zagora is the daily caterer for o
                 {images.map((image, index) => (
                     <div key={index} className="image-item">
                         <img 
-                            src={`/public/${image}`} // Retained custom path
+                            src={`${image}`} // Retained custom path
                             alt={`CET Platform project ${index + 1}`} 
                             className="gallery-image"
                             onClick={() => openModal(index)} // Open modal on click
@@ -63,7 +63,7 @@ For meals, Salt and Pepper Restaurant in Stara Zagora is the daily caterer for o
                     <span className="close">&times;</span>
                     <img 
                         className="modal-content" 
-                        src={`/public/${images[selectedIndex]}`} 
+                        src={`${images[selectedIndex]}`} 
                         alt={`CET Platform project ${selectedIndex + 1}`} 
                     />
                     <div className="modal-navigation">
@@ -73,6 +73,19 @@ For meals, Salt and Pepper Restaurant in Stara Zagora is the daily caterer for o
                 </div>
             )}
 
+    {/* Button above the map */}
+    <div className="button-container">
+        <a 
+          className="read-more-button" 
+          href="https://youtopiariverside.com/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          Read more about Youtopia
+        </a>
+    </div>
+
+    <Map/>
     <Footer />
     </>
   )

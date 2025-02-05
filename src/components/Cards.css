@@ -11,9 +11,17 @@
     font-size: 40px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for text */
     margin-bottom: 50px;
-   margin-top: 80px;
+    margin-top: 80px;
+  }
+
+  .cards h3 {
+    transition: color 0.3s ease; 
   }
   
+  .cards h3:hover {
+    color: #0056b3;
+  }
+
   /* Container holding the card items */
   .cards__container {
     display: flex;

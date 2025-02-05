@@ -6,7 +6,7 @@ import './Pictures.css';
 function Pictures() {
     const images = [
         '1_n.jpg', 
-        '2_n.jpg',
+        './2_n.jpg',
         '4_n.jpg',
         '5_n.jpg',
         '6_n.jpg',
@@ -77,7 +77,7 @@ function Pictures() {
                 {images.map((image, index) => (
                     <div key={index} className="image-item">
                         <img 
-                            src={`/public/${image}`} // Retained custom path
+                            src={`${image}`} // Retained custom path
                             alt={`CET Platform project ${index + 1}`} 
                             className="gallery-image"
                             onClick={() => openModal(index)} // Open modal on click
@@ -92,7 +92,7 @@ function Pictures() {
                     <span className="close">&times;</span>
                     <img 
                         className="modal-content" 
-                        src={`/public/${images[selectedIndex]}`} 
+                        src={`${images[selectedIndex]}`} 
                         alt={`CET Platform project ${selectedIndex + 1}`} 
                     />
                     <div className="modal-navigation">

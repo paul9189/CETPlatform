@@ -19,7 +19,7 @@ h1{
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    margin-right: -100px;
+    margin-right: 100px;
   }
 
   
@@ -99,7 +99,7 @@ h1{
 }
 /* feedback */
 .feedback-container{
-  padding-left: 200px;
+  padding-left: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center; 

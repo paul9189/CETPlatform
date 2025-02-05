@@ -11,6 +11,7 @@
 .project-details button{
     margin-bottom: 20px;
     color: black;
+    align-items: center;
 
 }
 .project-details h1{
