@@ -47,7 +47,18 @@ function Pictures() {
         'p4-3.jpg',
         'p4-4.jpg',
         'p4-5.jpg',
-
+        'p6-1.jpg',
+        'p6-2.jpg',
+        'p6-3.jpg',
+        'p6-4.jpg',
+        'p6-5.jpg',
+        'p6-6.jpg',
+        'p5-1.jpg',
+        'p5-2.jpg',
+        'p5-3.jpg',
+        'p5-4.jpg',
+        'p5-5.jpg',
+        'p5-6.jpg'
     ];
 
     const [selectedIndex, setSelectedIndex] = useState(null);
