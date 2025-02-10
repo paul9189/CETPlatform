@@ -57,7 +57,7 @@ function SlideShow() {
         return () => clearInterval(interval); // Cleanup on component unmount
     }, []);
 
-    const currentImage = `/public/${images[currentIndex]}`;
+    const currentImage = `${images[currentIndex]}`;
 
     // Debugging output for the src path
     console.log('Current image source:', currentImage);
