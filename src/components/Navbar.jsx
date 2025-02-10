@@ -44,7 +44,7 @@ function Navbar() {
       {/* <img className='navbar-img' src="logo-removebg.png" alt="logo" /> */}
         <Link to='/' className='navbar-logo'>
         {/* C:E:T Platform Bulgaria  */}
-        <img className='navbar-img' src="logo-removebg.png" alt="logo" />
+        <img className='navbar-img' src="/logo-removebg.png" alt="logo" />
         </Link>
         
         {/* Menu icon */}

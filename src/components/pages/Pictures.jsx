@@ -5,8 +5,6 @@ import './Pictures.css';
 
 function Pictures() {
     const images = [
-        '1_n.jpg', 
-        './2_n.jpg',
         '4_n.jpg',
         '5_n.jpg',
         '6_n.jpg',
@@ -59,6 +57,7 @@ function Pictures() {
         'p5-4.jpg',
         'p5-5.jpg',
         'p5-6.jpg'
+
     ];
 
     const [selectedIndex, setSelectedIndex] = useState(null);
