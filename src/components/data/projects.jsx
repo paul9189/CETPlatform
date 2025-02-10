@@ -15,10 +15,10 @@ const projects = [
         path: "/project-one", // Added path for navigation
         details: (
             <div className="project-container">
+              <div> <SlideShow /></div>
 
               <div className="project-description">
               <p>From February 7 to 15, 2024, CET Bulgaria hosted the Erasmus+ program "Cultivating Skills for a Brighter Future" in Youthopia, Stara Zagora. This personal development initiative brought together 27 participants from Bulgaria, Greece, Romania, Italy, and Serbia, aiming to empower young people with self-discovery techniques, goal-setting skills, and mindfulness practices. Facilitated by the experienced Tihomira, the program combined engaging activities with a supportive environment, enabling participants to uncover their potential and create actionable strategies for their futures.</p>
-              <div> <SlideShow /></div>
               </div>
 
               <div className="project-goals-container">
@@ -76,11 +76,11 @@ const projects = [
         path: "/project-2",
         details:(
           <div className="project-container">
+          <div> <SlideShow /></div>
 
             <div className="project-description">
             
             <p>From April 8-16, 2024, Stara Zagora, Bulgaria, hosted Digital Creativity for Youth Workers: Exploration, Mastery, Impact!, a transformative training course under KA153. The program equipped youth workers with advanced digital skills, including photography, video editing, and digital marketing. Participants explored emerging technologies like artificial intelligence and learned to create engaging content in various formats, such as PDF books and audio files. Emphasizing ethical practices, the training empowered participants to craft impactful digital content, connect effectively with their audiences, and adapt to the fast-evolving digital landscape. The course was conducted entirely in English and provided hands-on, practical learning experiences.</p>
-            <div> <SlideShow /></div>
             
             </div>
 
@@ -141,11 +141,11 @@ const projects = [
         path: "/project-3",
         details: (
           <div className="project-container">
+          <div> <SlideShow /></div>
 
             <div className="project-description">
           
             <p>From June 11-19, 2024, Stara Zagora, Bulgaria, hosted Our Stories, Our Stage, a transformative youth exchange designed to foster civic sensitivity toward human rights and democracy among European youth. Through informal educational methods such as storytelling, theater, and political simulations, participants explored their potential while gaining valuable skills not typically addressed in traditional education. A highlight of the program was the creation of a state-like simulation game, which encouraged participants to think critically, collaborate, and engage creatively with civic concepts.</p>
-            <div> <SlideShow /></div>
             
             </div>
 
@@ -205,11 +205,11 @@ const projects = [
         path: "/project-4",
         details: (
           <div className="project-container">
+          <div> <SlideShow /></div>
 
             <div className="project-description">
         
             <p>"The State of Mind" is an Erasmus+ training course that took place from 20th to 27th November 2024 in Bulgaria. This innovative program focused on designing interactive political games, where participants explored the complexities of navigating political systems. The course incorporated the power of artificial intelligence to fuel creativity in youth work, blending traditional art with modern technology. Through hands-on workshops, participants created engaging, dynamic experiences, including digital art, animations, and original music compositions, showcasing the potential of AI in fostering creativity and developing new tools for youth work.</p>
-          <div> <SlideShow /></div>
            
             </div>
 
@@ -269,6 +269,7 @@ const projects = [
       path: "/project-five", // Added path for navigation
       details: (
           <div className="project-container">
+            <div> <SlideShow /></div>
 
             <div className="project-description">
             <p>From October 29th to November 6th, 2024, the picturesque Youthtopia Riverside near Stara Zagora, Bulgaria, became a vibrant meeting point for young people from Bulgaria, Poland, Romania, Greece, and Turkey.This Erasmus+ youth exchange was designed to tackle the pressing global issues of fake news and propaganda while enhancing media literacy, critical thinking, and teamwork skills.
@@ -276,7 +277,6 @@ const projects = [
 The exchange also emphasized the importance of cultural understanding. In a setting where historical divides could have hindered dialogue, young people from Greece and Turkey, among others, built meaningful connections, forging friendships over shared meals, group activities, and open conversations. The lively Halloween celebration, complete with a costume party, dancing, and games, added an element of fun and camaraderie, proving that education and enjoyment go hand in hand.
 By the end of the exchange, the outcomes were clear: participants not only improved their ability to discern credible information from fake news, but they also enhanced their practical skills in creative expression and collaborative problem-solving. “Don’t Get Fooled!” stands as a testament to the power of Erasmus+ in empowering youth to become informed, proactive citizens ready to challenge misinformation and build bridges across cultures.
 </p>
-            <div> <SlideShow /></div>
             </div>
 
             <div className="project-goals-container">
@@ -340,6 +340,7 @@ By the end of the exchange, the outcomes were clear: participants not only impro
     path: "/project-six", // Added path for navigation
     details: (
         <div className="project-container">
+            <div> <SlideShow /></div>
 
           <div className="project-description">
           <p>From November 11th to 19th, 2024, the serene surroundings of Youthtopia Riverside near Stara Zagora, Bulgaria, set the stage for "Play it Out!"—an Erasmus+ youth exchange that united young people from Moldova, Bulgaria, Romania, Lithuania, and Hungary. In this inspiring project, theatre became more than just performance; it was a dynamic tool for non-formal education aimed at addressing pressing social issues and fostering personal growth.
@@ -348,7 +349,6 @@ These workshops culminated in live performances at the Youth Center of Stara Zag
 Beyond the stage, "Play it Out!" celebrated cultural diversity with a memorable cultural evening. During this event, participants shared traditional dishes, music, and stories from their respective countries, nurturing intercultural dialogue and forging new friendships. The shared experiences both on and off stage enhanced teamwork, public speaking, and creative problem-solving skills, empowering these young change-makers to approach societal challenges with renewed confidence and creativity.
 "Play it Out!" stands as a testament to the transformative potential of theatre. By merging creative expression with critical social issues, the project has equipped participants with practical skills and inspired them to become active advocates for positive change in their communities. Stay tuned for more insights, reflections, and stories as these young artists continue to drive social change through the powerful medium of theatre.
 </p>
-          <div> <SlideShow /></div>
           </div>
 
           <div className="project-goals-container">

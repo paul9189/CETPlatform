@@ -47,11 +47,11 @@ function SlideShow() {
 
     ];
 
-    const [currentIndex, setCurrentIndex] = useState(0);
+    const [currentIndex, setCurrentIndex] = useState(Math.floor(Math.random() * images.length));
 
     useEffect(() => {
         const interval = setInterval(() => {
-            setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+            setCurrentIndex(() => Math.floor(Math.random() * images.length));
         }, 5000);
 
         return () => clearInterval(interval); // Cleanup on component unmount
@@ -60,7 +60,7 @@ function SlideShow() {
     const currentImage = `${images[currentIndex]}`;
 
     // Debugging output for the src path
-    console.log('Current image source:', currentImage);
+    // console.log('Current image source:', currentImage);
 
     return (
         <>
