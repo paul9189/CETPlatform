@@ -254,9 +254,26 @@ const projects = [
   <img src="/p4-4.jpg" alt="" />
   <img src="/p4-5.jpg" alt="" />
   
- 
-</div>      {/*images  */}
 
+
+</div>    
+  {/*images  */}
+ <div style={{ textAlign: 'center', marginTop: '20px' }}>
+      <button
+        onClick={() => window.open('https://drive.google.com/drive/folders/17CqU4tbgGC9BP8PBGsGdtG_Vtfnd90I4?usp=sharing', '_blank')}
+        style={{
+          backgroundColor: '#4285F4',
+          color: 'white',
+          padding: '10px 20px',
+          border: 'none',
+          borderRadius: '8px',
+          cursor: 'pointer'
+          
+        }}
+      >
+        See Results & Photos
+      </button>
+    </div>
           </div>
         )
 
@@ -327,7 +344,22 @@ By the end of the exchange, the outcomes were clear: participants not only impro
 
 </div>
              {/*images  */}
-
+<div style={{ textAlign: 'center', marginTop: '20px' }}>
+      <button
+        onClick={() => window.open('https://drive.google.com/drive/folders/15YXdjb-dG7CuBxt3pvOiv_4Lat28nTc6?usp=sharing', '_blank')}
+        style={{
+          backgroundColor: '#4285F4',
+          color: 'white',
+          padding: '10px 20px',
+          border: 'none',
+          borderRadius: '8px',
+          cursor: 'pointer'
+          
+        }}
+      >
+        See Results & Photos
+      </button>
+    </div>
           </div>
         )
   },
@@ -394,10 +426,99 @@ Beyond the stage, "Play it Out!" celebrated cultural diversity with a memorable 
 
 </div>
            {/*images  */}
-
+<div style={{ textAlign: 'center', marginTop: '20px' }}>
+      <button
+        onClick={() => window.open('https://drive.google.com/drive/folders/1Z_s_VaI7NaxInn2oCIOSLV9pKty9auwg?usp=sharing', '_blank')}
+        style={{
+          backgroundColor: '#4285F4',
+          color: 'white',
+          padding: '10px 20px',
+          border: 'none',
+          borderRadius: '8px',
+          cursor: 'pointer'
+          
+        }}
+      >
+        See Results & Photos
+      </button>
+    </div>
         </div>
       )
-}
+},
+
+{
+    id: 7,
+    name: "Your Turn to Try!",
+    description: "Read more",
+    image: "YourTurnToTry.png",
+    path: "/project-seven", // Added path for navigation
+    details: (
+        <div className="project-container">
+            <div> <SlideShow /></div>
+
+          <div className="project-description">
+          <p>From 13 to 21 August 2024, youth workers and facilitators from across Europe gathered in Bulgaria for the Erasmus+ training course Your Turn to Try!, hosted by CET Platform Bulgaria. The project immersed participants in a creative and experiential learning journey that combined theatre-based education, group dynamics, and simulation games to strengthen facilitation and communication skills among emerging youth workers. Throughout the course, participants explored how non-formal education principles can be applied in practice through movement, improvisation, and real-life scenarios. They learned to handle common challenges faced by facilitators—such as participants whispering during workshops, arriving late, or struggling with English—by developing practical, human-centered responses. Instead of relying on theory, the program emphasized learning by doing, encouraging participants to reflect, adapt, and grow through experience. Small yet meaningful techniques—like a facilitator calmly walking closer to a distracted group or initiating a conversation about shared respect—helped illustrate how presence, empathy, and self-awareness can shape the atmosphere of any group. One of the most memorable activities was the simulation game Erasmus Eco Tank, inspired by the “Shark Tank” format, where participants used AI tools to develop innovative, eco-friendly business ideas and pitched them to a panel of “investors” who decided how to distribute a symbolic $1 million between the teams. This creative exercise blended teamwork, sustainability, and digital innovation, giving participants hands-on experience in public speaking, negotiation, and problem-solving. The training concluded with the co-creation of the Handbook for Facilitators and Youth Workers, a practical guide that compiles all the theatre methods, simulations, and facilitation strategies developed during the project. The handbook now serves as a valuable resource for novice youth workers across Europe, supporting them in applying creative, reflective, and inclusive approaches in their own initiatives. Your Turn to Try! ultimately proved that facilitation is not about perfection—it is about connection, empathy, and the courage to keep learning, one experience at a time.</p>
+          </div>
+
+          <div className="project-goals-container">
+            <div className="project-goals">
+              <h2>Project Goals:</h2>
+            </div>
+            <div className="goals-container">
+              <div>
+                <FontAwesomeIcon icon={faHtml5} className="icon" aria-hidden="true"/>
+                <h4>Strengthen Facilitation Skills</h4>
+                <p> To equip novice youth workers with practical communication, leadership, and group management abilities through experiential learning and reflection.</p>
+              </div>
+
+              <div>
+                <FontAwesomeIcon icon={faBolt} className="icon" aria-hidden="true" />
+                <h4>Introduce Theatre-Based Methods</h4>
+                <p>To use theatre exercises as tools for building empathy, teamwork, and creative self-expression in youth work. </p>
+              </div>
+
+              <div>
+                <FontAwesomeIcon icon={faSun}  className="icon" aria-hidden="true" />
+                <h4>Develop Simulation Games for Learning</h4>
+                <p>To design and test interactive scenarios that reflect real-life challenges faced by facilitators, encouraging adaptability, cooperation, and problem-solving.</p>
+              </div>
+
+              <div>
+                <FontAwesomeIcon icon={faRocket}  className="icon" aria-hidden="true"/>
+                <h4>Create a Practical Handbook for Youth Workers</h4>
+                <p>To produce a comprehensive guide compiling the activities, methods, and tools developed during the training as a long-term educational resource for the youth work community.</p>
+              </div>
+            </div>
+          </div>
+          <div className="project-imgs">
+<img src="/p7-1.jpg" alt="" />
+<img src="/p7-2.jpg" alt="" />
+<img src="/p7-3.jpg" alt="" />
+<img src="/p7-4.jpg" alt="" />
+<img src="/p7-5.jpg" alt="" />
+<img src="/p7-6.jpg" alt="" />
+
+</div>
+           {/*images  */}
+<div style={{ textAlign: 'center', marginTop: '20px' }}>
+      <button
+        onClick={() => window.open('https://drive.google.com/drive/folders/13dxUnzRvq2z6sSJdxfNyRX4R5IrV8R0I?usp=sharing', '_blank')}
+        style={{
+          backgroundColor: '#4285F4',
+          color: 'white',
+          padding: '10px 20px',
+          border: 'none',
+          borderRadius: '8px',
+          cursor: 'pointer'
+          
+        }}
+      >
+        See Results & Photos
+      </button>
+    </div>
+        </div>
+      )
+},
 ];
 
 export default projects;
