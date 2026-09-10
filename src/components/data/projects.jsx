@@ -273,6 +273,8 @@ const projects = [
       >
         See Results & Photos
       </button>
+      <p> Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.</p>
+    
     </div>
           </div>
         )
@@ -359,6 +361,8 @@ By the end of the exchange, the outcomes were clear: participants not only impro
       >
         See Results & Photos
       </button>
+      <p> Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.</p>
+    
     </div>
           </div>
         )
@@ -441,6 +445,8 @@ Beyond the stage, "Play it Out!" celebrated cultural diversity with a memorable 
       >
         See Results & Photos
       </button>
+      <p> Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.</p>
+    
     </div>
         </div>
       )
@@ -515,6 +521,8 @@ Beyond the stage, "Play it Out!" celebrated cultural diversity with a memorable 
       >
         See Results & Photos
       </button>
+      <p> Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.</p>
+    
     </div>
         </div>
       )
@@ -603,6 +611,8 @@ Beyond the stage, "Play it Out!" celebrated cultural diversity with a memorable 
       >
         See Results & Photos
       </button>
+      <p> Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.</p>
+    
     </div>
         </div>
       )
@@ -688,6 +698,8 @@ Beyond the stage, "Play it Out!" celebrated cultural diversity with a memorable 
       >
         See Results & Photos
       </button>
+      <p> Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.</p>
+    
     </div>
         </div>
       )
@@ -777,6 +789,8 @@ Beyond the stage, "Play it Out!" celebrated cultural diversity with a memorable 
       >
         See Results & Photos
       </button>
+      <p> Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.</p>
+    
     </div>
         </div>
       )
@@ -864,6 +878,8 @@ Beyond the stage, "Play it Out!" celebrated cultural diversity with a memorable 
       >
         See Results & Photos
       </button>
+      <p> Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.</p>
+    
     </div>
         </div>
       )
