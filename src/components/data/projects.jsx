@@ -607,6 +607,91 @@ Beyond the stage, "Play it Out!" celebrated cultural diversity with a memorable 
         </div>
       )
 },
+
+{
+    id: 9,
+    name: "Play for Change",
+    description: "Read more",
+    image: "playforchangetposter.png",
+    path: "/project-nine", // Added path for navigation
+    details: (
+        <div className="project-container">
+            <div> <SlideShow /></div>
+
+          <div className="project-description">
+          <p>In Stara Zagora, Bulgaria, we hosted the Erasmus+ Youth Exchange "Play for Change." This creative communication initiative brought together young people from Bulgaria, Romania, Moldova, and Hungary, aiming to strengthen participants' communication skills and empathy through Non-Violent Communication (NVC) and Forum Theatre. Through non-formal education methods including interactive games, improvised performances, and video production, participants explored real challenges young people face today, such as bullying, racism, and inequality, while creating tangible outputs to share with their local communities and beyond.</p>
+          </div>
+
+          <div className="project-goals-container">
+            <div className="project-goals">
+              <h2>Project Goals:</h2>
+              <p>
+                The youth exchange aimed to equip participants with the communication tools, creative skills, and confidence needed to transform conflict into connection. Here are the key goals that guided this transformative learning experience.
+                </p>
+            </div>
+            <div className="goals-container">
+              <div>
+                <FontAwesomeIcon icon={faHtml5} className="icon" aria-hidden="true"/>
+                <h4>Teach Non-Violent Communication</h4>
+                <p> 
+                  Help participants transform everyday speech into clear, compassionate communication, exploring how different communication styles shape group dynamics, trust, and conflict resolution.
+                  </p>
+              </div>
+
+              <div>
+                <FontAwesomeIcon icon={faBolt} className="icon" aria-hidden="true" />
+                <h4>Create Tangible Community Outputs</h4>
+                <p>
+                 Support participants in producing short educational videos on Non-Violent Communication and staging a public forum theatre performance for local youth, sharing their learning with the wider community.
+                 </p>
+              </div>
+
+              <div>
+                <FontAwesomeIcon icon={faSun}  className="icon" aria-hidden="true" />
+                <h4>Use Forum Theatre for Dialogue and Change</h4>
+                <p>
+                 Enable participants to explore real social issues, including bullying, racism, and xenophobia, through interactive theatre where audiences can intervene, question reality, and propose solutions.
+                  </p>
+              </div>
+
+              <div>
+                <FontAwesomeIcon icon={faRocket}  className="icon" aria-hidden="true"/>
+                <h4>Foster Intercultural Connection and Growth</h4>
+                <p>
+                 Strengthen bonds between participants from four different countries through daily culturally-themed breakfasts and cultural evenings, while supporting personal growth through Youthpass reflection and certification.
+                 </p>
+              </div>
+            </div>
+          </div>
+          <div className="project-imgs">
+<img src="/playforchange1.jpg" alt="" />
+<img src="/playforchange2.jpg" alt="" />
+<img src="/playforchange3.jpg" alt="" />
+<img src="/playforchange4.jpg" alt="" />
+<img src="/playforchange5.jpg" alt="" />
+<img src="/playforchange6.jpg" alt="" />
+
+</div>
+           {/*images  */}
+<div style={{ textAlign: 'center', marginTop: '20px' }}>
+      <button
+        onClick={() => window.open('https://drive.google.com/drive/folders/1Mfk-2w79tdV-Nj40TkPs6HCgbZsYYqIU?usp=sharing', '_blank')}
+        style={{
+          backgroundColor: '#4285F4',
+          color: 'white',
+          padding: '10px 20px',
+          border: 'none',
+          borderRadius: '8px',
+          cursor: 'pointer'
+          
+        }}
+      >
+        See Results & Photos
+      </button>
+    </div>
+        </div>
+      )
+},
 ];
 
 export default projects;
