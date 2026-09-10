@@ -579,12 +579,12 @@ Beyond the stage, "Play it Out!" celebrated cultural diversity with a memorable 
             </div>
           </div>
           <div className="project-imgs">
-<img src="/p7-1.jpg" alt="" />
-<img src="/p7-2.jpg" alt="" />
-<img src="/p7-3.jpg" alt="" />
-<img src="/p7-4.jpg" alt="" />
-<img src="/p7-5.jpg" alt="" />
-<img src="/p7-6.jpg" alt="" />
+<img src="/ctrlaltrights1.jpg" alt="" />
+<img src="/ctrlaltrights2.jpg" alt="" />
+<img src="/ctrlaltrights3.jpg" alt="" />
+<img src="/ctrlaltrights4.jpg" alt="" />
+<img src="/ctrlaltrights5.jpg" alt="" />
+<img src="/ctrlaltrights6.jpg" alt="" />
 
 </div>
            {/*images  */}
