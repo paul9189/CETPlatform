@@ -781,6 +781,93 @@ Beyond the stage, "Play it Out!" celebrated cultural diversity with a memorable 
         </div>
       )
 },
+
+{
+    id: 11,
+    name: "Inside, outside - turn around!",
+    description: "Read more",
+    image: "insideoutsideturnaroundposter.png",
+    path: "/project-eleven", // Added path for navigation
+    details: (
+        <div className="project-container">
+            <div> <SlideShow /></div>
+
+          <div className="project-description">
+          <p>
+            From 8 to 16 May 2026, in Stara Zagora, Bulgaria, CET Platform Bulgaria hosted the Erasmus+ Training Course "Inside, Outside – Turn Around!" This outdoor and non-formal education initiative brought together youth workers and participants from different countries, aiming to explore how nature-based methods can support personal development, wellbeing, and inclusion in youth work. Through nature walks, survival skills, creative workshops, and self-designed outdoor activities, participants experienced firsthand how the natural environment can become a powerful tool for learning, connection, and reflection, coming away with a range of nature-based workshop ideas to use in their future youth work.
+            </p>
+          </div>
+
+          <div className="project-goals-container">
+            <div className="project-goals">
+              <h2>Project Goals:</h2>
+              <p>
+                The training course aimed to equip youth workers with practical tools and confidence to bring nature-based, non-formal methods into their own work with young people. Here are the key goals that guided this transformative learning experience.
+                 </p>
+            </div>
+            <div className="goals-container">
+              <div>
+                <FontAwesomeIcon icon={faHtml5} className="icon" aria-hidden="true"/>
+                <h4>Explore Nature as an Educational Tool</h4>
+                <p> 
+                Demonstrate how outdoor environments can support learning, emotional wellbeing, and personal growth, using activities such as blind walks, nature-based painting, and forest ecosystem exploration.
+                </p>
+              </div>
+
+              <div>
+                <FontAwesomeIcon icon={faBolt} className="icon" aria-hidden="true" />
+                <h4>Build Practical Outdoor and Survival Skills</h4>
+                <p>
+                Develop participants' teamwork, problem-solving, and resilience through hands-on outdoor challenges, including a forest treasure hunt focused on fire-making and safe interaction with nature.
+                </p>
+              </div>
+
+              <div>
+                <FontAwesomeIcon icon={faSun}  className="icon" aria-hidden="true" />
+                <h4>Design Inclusive Non-Formal Workshops</h4>
+                <p>
+               Support participants in creating and testing their own nature-based educational activities, focused on inclusion, accessibility, and engaging different groups of young people.
+               </p>
+              </div>
+
+              <div>
+                <FontAwesomeIcon icon={faRocket}  className="icon" aria-hidden="true"/>
+                <h4>Celebrate Cultural Discovery and Self-Reflection</h4>
+                <p>
+                Deepen participants' intercultural understanding through a cultural exploration of Plovdiv, while supporting personal growth through Youthpass-based reflection on the competences developed throughout the week.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="project-imgs">
+<img src="/insideoutside1.jpg" alt="" />
+<img src="/insideoutside2.jpg" alt="" />
+<img src="/insideoutside3.jpg" alt="" />
+<img src="/insideoutside4.jpg" alt="" />
+<img src="/insideoutside5.jpg" alt="" />
+<img src="/insideoutside6.jpg" alt="" />
+
+</div>
+           {/*images  */}
+<div style={{ textAlign: 'center', marginTop: '20px' }}>
+      <button
+        onClick={() => window.open('https://drive.google.com/drive/folders/1stIAzWYMmGXrzVh0Q8QzCXgeDYtEXS_6?usp=sharing', '_blank')}
+        style={{
+          backgroundColor: '#4285F4',
+          color: 'white',
+          padding: '10px 20px',
+          border: 'none',
+          borderRadius: '8px',
+          cursor: 'pointer'
+          
+        }}
+      >
+        See Results & Photos
+      </button>
+    </div>
+        </div>
+      )
+},
 ];
 
 export default projects;
