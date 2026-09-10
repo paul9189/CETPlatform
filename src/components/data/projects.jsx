@@ -519,6 +519,94 @@ Beyond the stage, "Play it Out!" celebrated cultural diversity with a memorable 
         </div>
       )
 },
+
+{
+    id: 8,
+    name: "CTRL+ALT+RIGHTS",
+    description: "Read more",
+    image: "ctrlaltrightposter.png",
+    path: "/project-eight", // Added path for navigation
+    details: (
+        <div className="project-container">
+            <div> <SlideShow /></div>
+
+          <div className="project-description">
+          <p>In July 2025, in Youtopia, Stara Zagora, CET Platform Bulgaria hosted the Erasmus+
+             Youth Exchange "CTRL+ALT+RIGHTS." This digital citizenship and human rights initiative 
+             brought together young people from Bulgaria, Romania, Poland, 
+             and Slovakia, aiming to strengthen participants' critical thinking, media literacy,
+              and understanding of fundamental human rights in an increasingly digital world. 
+              Through non-formal education methods including forum theatre, simulation games, debate, 
+               hands-on digital literacy exercises, 
+            participants explored how misinformation, AI-generated content, and rights violations 
+            affect societies today, while creating original educational tools to share 
+            with youth workers and educators across Europe.</p>
+          </div>
+
+          <div className="project-goals-container">
+            <div className="project-goals">
+              <h2>Project Goals:</h2>
+              <p>The youth exchange aimed to equip participants with the awareness, skills, and creative tools needed to navigate the digital age responsibly while defending fundamental rights. Here are the key goals that guided this transformative learning experience.</p>
+            </div>
+            <div className="goals-container">
+              <div>
+                <FontAwesomeIcon icon={faHtml5} className="icon" aria-hidden="true"/>
+                <h4>Strengthen Human Rights Awareness</h4>
+                <p> Help participants understand, discuss, and defend fundamental rights through experiential and creative methods, including structured debate, Theatre of the Oppressed, and forum theatre techniques that build empathy and encourage intervention in scenarios depicting rights violations.</p>
+              </div>
+
+              <div>
+                <FontAwesomeIcon icon={faBolt} className="icon" aria-hidden="true" />
+                <h4>Build Digital and Media Literacy</h4>
+                <p>Equip participants with the tools to detect fake news, misinformation, and AI-generated content, sharpening their critical awareness of the risks posed by deepfakes and digital manipulation in today's online world.</p>
+              </div>
+
+              <div>
+                <FontAwesomeIcon icon={faSun}  className="icon" aria-hidden="true" />
+                <h4>Create Reusable Educational Resources</h4>
+                <p>
+                  Support participants in designing their own human rights games and workshops, later finalized and published online for youth workers, educators, and other organizations to use in their own non-formal education activities.
+                </p>
+              </div>
+
+              <div>
+                <FontAwesomeIcon icon={faRocket}  className="icon" aria-hidden="true"/>
+                <h4>Foster Intercultural Connection and Growth</h4>
+                <p>
+                  Strengthen bonds between participants from four different countries through daily culturally-themed breakfasts, cultural evenings, and a shared visit to Stara Zagora's heritage sites, while supporting personal growth through Youthpass reflection and certification.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="project-imgs">
+<img src="/p7-1.jpg" alt="" />
+<img src="/p7-2.jpg" alt="" />
+<img src="/p7-3.jpg" alt="" />
+<img src="/p7-4.jpg" alt="" />
+<img src="/p7-5.jpg" alt="" />
+<img src="/p7-6.jpg" alt="" />
+
+</div>
+           {/*images  */}
+<div style={{ textAlign: 'center', marginTop: '20px' }}>
+      <button
+        onClick={() => window.open('https://drive.google.com/drive/folders/12htxvsB-Vb2vg8wjvNim1Frk03w94AQe?usp=sharing', '_blank')}
+        style={{
+          backgroundColor: '#4285F4',
+          color: 'white',
+          padding: '10px 20px',
+          border: 'none',
+          borderRadius: '8px',
+          cursor: 'pointer'
+          
+        }}
+      >
+        See Results & Photos
+      </button>
+    </div>
+        </div>
+      )
+},
 ];
 
 export default projects;
