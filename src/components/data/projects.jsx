@@ -698,7 +698,7 @@ Beyond the stage, "Play it Out!" celebrated cultural diversity with a memorable 
     name: "United In Respect",
     description: "Read more",
     image: "unitedinrespectposter.png",
-    path: "/project-nine", // Added path for navigation
+    path: "/project-ten", // Added path for navigation
     details: (
         <div className="project-container">
             <div> <SlideShow /></div>
