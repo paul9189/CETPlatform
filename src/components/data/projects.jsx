@@ -868,6 +868,91 @@ Beyond the stage, "Play it Out!" celebrated cultural diversity with a memorable 
         </div>
       )
 },
+
+{
+    id: 12,
+    name: "Safeguarding Democracy",
+    description: "Read more",
+    image: "safeguardingdemocracyposter.png",
+    path: "/project-twelve", // Added path for navigation
+    details: (
+        <div className="project-container">
+            <div> <SlideShow /></div>
+
+          <div className="project-description">
+          <p>
+           From 3 to 10 March 2026, in Stara Zagora, Bulgaria, CET Platform Bulgaria hosted the Erasmus+ Youth Exchange "Safeguarding Democracy." This civic education initiative brought together young people from Romania, Armenia, Poland, and Bulgaria, aiming to strengthen participants' critical thinking around disinformation, AI, and active citizenship while deepening their understanding of democratic values and geopolitics. Through simulation games, debates, and participant-designed educational tools, participants explored how misinformation and AI-generated content threaten democratic systems, while examining real geopolitical challenges such as Armenia's regional position, all in the lead-up to designing their own democracy-education games to share with youth workers and educators across Europe.
+          </p>
+          </div>
+
+          <div className="project-goals-container">
+            <div className="project-goals">
+              <h2>Project Goals:</h2>
+              <p>
+                The youth exchange aimed to equip participants with the critical thinking skills and civic awareness needed to recognize and counter modern threats to democracy. Here are the key goals that guided this transformative learning experience.
+                </p>
+            </div>
+            <div className="goals-container">
+              <div>
+                <FontAwesomeIcon icon={faHtml5} className="icon" aria-hidden="true"/>
+                <h4>Build Media and AI Literacy</h4>
+                <p> 
+                Sharpen participants' ability to identify fake news and AI-generated content, using interactive games such as a fake news competition and a deepfake-detection challenge to reveal the real risks of digital manipulation. </p>
+              </div>
+
+              <div>
+                <FontAwesomeIcon icon={faBolt} className="icon" aria-hidden="true" />
+                <h4>Deepen Understanding of Democracy and Geopolitics</h4>
+                <p>
+                 Explore democratic participation, voting behavior, freedom of expression, and regional geopolitics through simulations, including a parliamentary debate examining Armenia's security and alliances amid shifting international tensions.</p>
+              </div>
+
+              <div>
+                <FontAwesomeIcon icon={faSun}  className="icon" aria-hidden="true" />
+                <h4>Create Reusable Civic Education Tools</h4>
+                <p>
+                Support participants in designing and testing their own democracy-simulation games, to be shared publicly for use by youth workers and educators in future non-formal education activities.
+                </p>
+              </div>
+
+              <div>
+                <FontAwesomeIcon icon={faRocket}  className="icon" aria-hidden="true"/>
+                <h4>Celebrate Cultural Diversity and Reflection</h4>
+                <p>
+                 Bring participants from four different countries closer together through culturally-themed evenings, while supporting personal growth through structured reflection on the competences developed throughout the exchange.
+                 </p>
+              </div>
+            </div>
+          </div>
+          <div className="project-imgs">
+<img src="/playforchange1.jpg" alt="" />
+<img src="/playforchange2.jpg" alt="" />
+<img src="/playforchange3.jpg" alt="" />
+<img src="/playforchange4.jpg" alt="" />
+<img src="/playforchange5.jpg" alt="" />
+<img src="/playforchange6.jpg" alt="" />
+
+</div>
+           {/*images  */}
+<div style={{ textAlign: 'center', marginTop: '20px' }}>
+      <button
+        onClick={() => window.open('https://drive.google.com/drive/folders/1avPwDT_KX_k2ei2ZBIkecdsruutk9fnt?usp=sharing', '_blank')}
+        style={{
+          backgroundColor: '#4285F4',
+          color: 'white',
+          padding: '10px 20px',
+          border: 'none',
+          borderRadius: '8px',
+          cursor: 'pointer'
+          
+        }}
+      >
+        See Results & Photos
+      </button>
+    </div>
+        </div>
+      )
+},
 ];
 
 export default projects;
