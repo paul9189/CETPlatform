@@ -925,12 +925,12 @@ Beyond the stage, "Play it Out!" celebrated cultural diversity with a memorable 
             </div>
           </div>
           <div className="project-imgs">
-<img src="/playforchange1.jpg" alt="" />
-<img src="/playforchange2.jpg" alt="" />
-<img src="/playforchange3.jpg" alt="" />
-<img src="/playforchange4.jpg" alt="" />
-<img src="/playforchange5.jpg" alt="" />
-<img src="/playforchange6.jpg" alt="" />
+<img src="/safeguardindemocracy1.jpg" alt="" />
+<img src="/safeguardindemocracy2.jpg" alt="" />
+<img src="/safeguardindemocracy3.jpg" alt="" />
+<img src="/safeguardindemocracy4.jpg" alt="" />
+<img src="/safeguardindemocracy5.jpg" alt="" />
+<img src="/safeguardindemocracy6.jpg" alt="" />
 
 </div>
            {/*images  */}
