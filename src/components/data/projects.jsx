@@ -692,6 +692,95 @@ Beyond the stage, "Play it Out!" celebrated cultural diversity with a memorable 
         </div>
       )
 },
+
+{
+    id: 10,
+    name: "United In Respect",
+    description: "Read more",
+    image: "unitedinrespectposter.png",
+    path: "/project-nine", // Added path for navigation
+    details: (
+        <div className="project-container">
+            <div> <SlideShow /></div>
+
+          <div className="project-description">
+          <p>
+            From 18 to 25 November 2025, in Stara Zagora, Bulgaria, CET Platform Bulgaria hosted the Erasmus+ Youth Exchange "United in Respect." This employability and youth empowerment initiative brought together young people from Bulgaria, Romania, and Poland, aiming to strengthen participants' career readiness while deepening their understanding of respect, inclusion, and civic participation. Through non-formal education methods including CV design, job interview practice, and political simulations, participants explored the real challenges young people face today. They also gave back to their host community directly, joining a municipal tree-planting initiative alongside local residents to help restore land affected by recent wildfires around Stara Zagora.
+            
+          </p>
+          </div>
+
+          <div className="project-goals-container">
+            <div className="project-goals">
+              <h2>Project Goals:</h2>
+              <p>
+                
+                The youth exchange aimed to equip participants with practical career skills and a stronger sense of civic responsibility and respect for others. Here are the key goals that guided this transformative learning experience.
+                </p>
+            </div>
+            <div className="goals-container">
+              <div>
+                <FontAwesomeIcon icon={faHtml5} className="icon" aria-hidden="true"/>
+                <h4>Build Employability Skills</h4>
+                <p> 
+                Help participants create professional CVs and practice job interview techniques, boosting their confidence and readiness to enter the job market. 
+                 </p>
+              </div>
+
+              <div>
+                <FontAwesomeIcon icon={faBolt} className="icon" aria-hidden="true" />
+                <h4>Promote Civic Participation and Respect</h4>
+                <p>
+                 Engage participants in political simulations and hands-on community action, including a local tree-planting initiative with the Mayor of Stara Zagora, while exploring issues of respect, inclusion, discrimination, and youth representation.
+                 </p>
+              </div>
+
+              <div>
+                <FontAwesomeIcon icon={faSun}  className="icon" aria-hidden="true" />
+                <h4>Explore Shared Youth Challenges</h4>
+                <p>
+                Support participants in researching and discussing common struggles facing young people across their countries, such as living costs, education fees, and job market barriers, while identifying good practices and solutions.
+                </p>
+              </div>
+
+              <div>
+                <FontAwesomeIcon icon={faRocket}  className="icon" aria-hidden="true"/>
+                <h4>Celebrate Cultural Diversity and Personal Growth</h4>
+                <p>
+                Bring participants from three different countries closer together through daily culturally-themed breakfasts and cultural evenings, while helping each young person reflect on and recognize their own development through Youthpass certification. 
+                 </p>
+              </div>
+            </div>
+          </div>
+          <div className="project-imgs">
+<img src="/unitedinrespect1.jpg" alt="" />
+<img src="/unitedinrespect2.jpg" alt="" />
+<img src="/unitedinrespect3.jpg" alt="" />
+<img src="/unitedinrespect4.jpg" alt="" />
+<img src="/unitedinrespect5.jpg" alt="" />
+<img src="/unitedinrespect6.jpg" alt="" />
+
+</div>
+           {/*images  */}
+<div style={{ textAlign: 'center', marginTop: '20px' }}>
+      <button
+        onClick={() => window.open('https://drive.google.com/drive/folders/1FoM92ftY-ebL_HVEGcMw4-J0O2Gj5U3r?usp=sharing', '_blank')}
+        style={{
+          backgroundColor: '#4285F4',
+          color: 'white',
+          padding: '10px 20px',
+          border: 'none',
+          borderRadius: '8px',
+          cursor: 'pointer'
+          
+        }}
+      >
+        See Results & Photos
+      </button>
+    </div>
+        </div>
+      )
+},
 ];
 
 export default projects;
